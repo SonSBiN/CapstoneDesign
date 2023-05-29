@@ -1,0 +1,250 @@
+.container{
+    width:1440px;
+    height:1024px;
+    box-shadow: 0px 0px 0px #FFF5E0;
+}
+.account_main{
+    width:832px;
+    height:463px;
+    border: 1px solid #F2F2F2;
+    padding-top:20px;
+    border-radius: 10px;
+    float:left;
+}
+
+.account_btn1, .account_btn2, .account_btn3, .account_btn4, .account_btn5, .account_btn6, .account_btn7, .account_btn8, .account_btn9, .account_btn10{
+    width: 383.5px;
+    height: 72.58px;
+    border-radius:10px;
+    margin-top:10px;
+    cursor: pointer;
+}
+.account_btn1:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn1:hover:after{
+    transform: scaleX(1);
+}
+.account_btn2:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn2:hover:after{
+    transform: scaleX(1);
+}
+.account_btn3:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn3:hover:after{
+    transform: scaleX(1);
+}
+.account_btn4:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn4:hover:after{
+    transform: scaleX(1);
+}
+.account_btn5:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn5:hover:after{
+    transform: scaleX(1);
+}
+.account_btn6:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn6:hover:after{
+    transform: scaleX(1);
+}
+.account_btn7:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn7:hover:after{
+    transform: scaleX(1);
+}
+.account_btn8:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn8:hover:after{
+    transform: scaleX(1);
+}
+.account_btn9:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn9:hover:after{
+    transform: scaleX(1);
+}
+.account_btn10:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.account_btn10:hover:after{
+    transform: scaleX(1);
+}
+.account_btn1, .account_btn5, .account_btn9{
+    background-color: #FFF5E0;
+}
+.account_btn2, .account_btn6, .account_btn10{
+    background-color: #EFE6F6;
+}
+.account_btn3, .account_btn7{
+    background-color: #E0F8EA;
+}
+.account_btn4, .account_btn8{
+    background-color: #FCEAE4;
+}
+.account_btn1, .account_btn3, .account_btn5, .account_btn7, .account_btn9{
+    float:left;
+    margin-left:20px;
+}
+.account_btn2, .account_btn4, .account_btn6, .account_btn8, .account_btn10{
+    float:right;
+    margin-right:20px;
+}
+#account_title{
+    margin-top:17px;
+    margin-left:15px;
+    display:inline-block;
+    vertical-align: top;
+    font-size:12px;
+    font-weight: bold;
+}
+#account_detail{
+    font-size:10px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:15px;
+    margin-top:-14px;
+}
+
+#account_img{
+    float:left;
+    width: 26px;
+    height: 31px;
+    margin-left:20px;
+    margin-top:20.79px;
+}
+
+.profile{
+    width:355px;
+    height:470px;
+    float:right;
+    text-align: center;
+    margin-right:80px;
+}
+
+.profile_detail1, .profile_detail2{
+    padding-top:20px;
+    width:318px;
+    height:72px;
+    cursor: pointer;
+}
+
+.profile_detail1{
+    margin-left:30px;
+    text-align: left;
+    width:158px;
+    height:69px;
+    float:left;
+    margin-top:10px;
+}
+
+#profile_img{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#Name{
+    font-size:18px;
+    font-weight: bolder;
+}
+
+#profile_detail_img{
+    margin-left:10px;
+    margin-top:14px;
+    float:left;
+    width:31px;
+    height: 31px;
+}
+.profile_detail2{
+    text-align: left;
+    float:right;
+    width:158px;
+    height:69px;
+    margin-top:10px;
+}
+
+#profile_title{
+    margin-top:10px;
+    margin-left: 15px;
+    display:inline-block;
+    vertical-align: top;
+    font-size:12px;
+    font-weight: bold;
+}
+
+#profile_detail3{
+    margin-left: 15px;
+    margin-top: -15px;
+    font-size:10px;
+    display:inline-block;
+    vertical-align: top;
+}
+.profile_detail1:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.profile_detail1:hover:after{
+    transform: scaleX(1);
+}
+.profile_detail2:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.profile_detail2:hover:after{
+    transform: scaleX(1);
+}
