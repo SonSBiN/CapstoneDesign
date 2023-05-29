@@ -1,0 +1,54 @@
+.modal {
+  display: none; /* 모달 초기에는 숨김 */
+  position: absolute;
+  left: 50%;
+  width: 800px;
+  height: 600px;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 모달을 가운데로 정렬 */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  margin-left: 95%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view_all {
+  background-color: #fff;
+}
+
+.view {
+  background-color: #fff;
+  border: none;
+  margin-left: 80%;
+  font-size: 12px;
+  color: #939393;
+}
+
+.content {
+  float: left;
+}
+
+.delete {
+  width: 50px;
+  background-color: #fff;
+  border: none;
+  float: right;
+}

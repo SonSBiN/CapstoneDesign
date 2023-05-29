@@ -1,83 +1,87 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Delicous Mountain</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicous Mountain</title>
 
-  <!--로고-->
-  <link rel="icon" href="/img/grayLogo.png" />
-   <!--브라우저 스타일 초기화-->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-  <!--Google Fonts - 나눔고딕-->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
-  <!--Google Material Icons-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
- 
-   <link rel="stylesheet" href="/css/main.css" />
+    <!--로고-->
+    <link rel="icon" href="/img/grayLogo.png" />
+    <!--브라우저 스타일 초기화-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!--Google Fonts - 나눔고딕-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google Material Icons-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-   <script defer src="./js/main.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="css/main.css" />
 
-  <!-- HEADER -->
- <header>
-  <div class="inner">
-    
-    
-    <a href="/" class="logo">
-      <img src="image/graylogo.png" alt="LOGO">
-    </a>
-   
-    <div class="top-menu">
-        
-      <ul class="main-menu">
-        <li>
-          <a href="/info">등산 정보</a>
-        </li>
-        <li>
-          <a href="/recommand">등산 추천</a>
-        </li>
-        <li>
-          <a href="/recommand">등산 메이트</a>
-        </li>
-        <li>
-          <a href="/community">커뮤니티</a>
-        </li>
-        <li>
-          <a href="/recommand">등산 장비 거래</a>
-        </li>
-      </ul>
-      
-      <div class="search">
-        <form>
-          <select name="select" >
-            <option value="option">선택</option>
-            <option value="info">등산 정보</option>
-            <option value="recommand">등산 추천</option>
-            <option value="mate">등산 메이트</option>
-            <option value="community">커뮤니티</option>
-            <option value="trade">등산 장비 거래</option>
-          </select>
-        </form>
-        <input type="text" />
-        <div class="material-icons">search</div>
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="inner">
+        <a href="/" class="logo">
+          <img src="image/graylogo.png" alt="LOGO" />
+        </a>
+
+        <div class="top-menu">
+          <ul class="main-menu">
+            <li>
+              <a href="/info">등산 정보</a>
+            </li>
+            <li>
+              <a href="/recommand">등산 추천</a>
+            </li>
+            <li>
+              <a href="/recommand">등산 메이트</a>
+            </li>
+            <li>
+              <a href="/community">커뮤니티</a>
+            </li>
+            <li>
+              <a href="/recommand">등산 장비 거래</a>
+            </li>
+          </ul>
+
+          <div class="search">
+            <form>
+              <select name="select">
+                <option value="option">선택</option>
+                <option value="info">등산 정보</option>
+                <option value="recommand">등산 추천</option>
+                <option value="mate">등산 메이트</option>
+                <option value="community">커뮤니티</option>
+                <option value="trade">등산 장비 거래</option>
+              </select>
+            </form>
+            <input type="text" />
+            <div class="material-icons">search</div>
+          </div>
+
+          <ul class="account">
+            <li>
+              <a href="/signin">Sign In</a>
+            </li>
+            <li>
+              <a href="/Login">Login</a>
+            </li>
+          </ul>
+          <hr />
+        </div>
       </div>
-
-      <ul class="account">
-        <li>
-          <a href="/signin">Sign In</a>
-        </li>
-        <li>
-          <a href="/Login">Login</a>
-        </li>
-      </ul>
-      <hr />
-    </div>
-  </div>
- </header>
-
-</body>
+    </header>
+  </body>
 </html>
