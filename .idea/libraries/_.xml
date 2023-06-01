@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="기타 작업">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/기타 작업/mountains_성빈.zip!/" />
+      <root url="jar://$PROJECT_DIR$/기타 작업/AccountMain.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
